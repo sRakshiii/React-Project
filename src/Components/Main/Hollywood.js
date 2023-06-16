@@ -12,7 +12,7 @@ function Hollywood() {
         <div className="allPosts">
           {Total.filter((e) => { return e.class === "hollywood1"}).map((item, index) => (
             <div className="latest1">
-              <Link to={`/details/${item.id}`} state={{ item }} key={index}><img src={item.cover} alt="" /></Link>
+              <Link to={`/details/${item.id}`} state={{ item }} key={index}><img src={item.cover} alt=""/></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }} key={index}><h4>{item.title}</h4></Link>
                 <h6>{item.desc.slice(0, 180)}</h6>

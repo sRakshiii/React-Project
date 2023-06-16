@@ -1,23 +1,19 @@
 const Data = [
   {
     id: 1,
-    cover:
-      "https://images.unsplash.com/photo-1505816014357-96b5ff457e9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80",
+    cover: "https://images.unsplash.com/photo-1505816014357-96b5ff457e9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80",
     category: "Life",
     title: "Stay Calm And Surf",
   },
   {
     id: 2,
-    cover:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/9CB5/production/_128271104_pathaancleanposter.jpg",
+    cover: "https://ichef.bbci.co.uk/news/976/cpsprodpb/9CB5/production/_128271104_pathaancleanposter.jpg",
     category: "Bollywood",
-    title:
-      "Fashion is part of the daily air and it changes all the time, with all the events.",
+    title: "Fashion is part of the daily air and it changes all the time, with all the events.",
   },
   {
     id: 3,
-    cover:
-      "https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg",
+    cover: "https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg",
     category: "Travel",
     title: "There's always light at the end of the tunnel",
   }  
@@ -26,31 +22,25 @@ const Data = [
 const blog = [
   {
     id: 1,
-    title:
-      "ZEE 5 (Bollywood Video on Demand) 12-Month Subscription $49.99 (50% off)",
+    title: "ZEE 5 (Bollywood Video on Demand) 12-Month Subscription $49.99 (50% off)",
     category: "Nature",
-    cover:
-      "https://files.ozbargain.com.au/n/43/781043x.jpg?h=102e46ed",
+    cover: "https://files.ozbargain.com.au/n/43/781043x.jpg?h=102e46ed",
     date: "Jun 12 2023",
     desc: "Recently discovered that Manoj Bajpayee’s new show came out so was looking around and discovered its available on Zee5 and which i checked is on 50% off for yearly subscription. Asked my mate and we split the cost. 5 screens.",
   },
   {
     id: 1,
-    title:
-    "(PR) 4th Gen Intel Xeon Outperforms Competition on Real-World Workloads",
+    title: "(PR) 4th Gen Intel Xeon Outperforms Competition on Real-World Workloads",
     category: "Nature",
-    cover:
-    "https://www.techpowerup.com/img/c2b8sFjpYd1KCI6E.jpg",
+    cover: "https://www.techpowerup.com/img/c2b8sFjpYd1KCI6E.jpg",
     date: "Jun 12 2023",
     desc: "With the launch of 4th Gen Intel Xeon Scalable processors in January 2023, Intel delivered significant advancements in performance with industry-leading Intel accelerator engines and improved performance per watt across key workloads like AI, data analytics, …",
   },
   {
     id: 1,
-    title:
-      "Shed of the Year shortlist includes Japanese tea room and ski chalet",
+    title: "Shed of the Year shortlist includes Japanese tea room and ski chalet",
     category: "Nature",
-    cover:
-      "https://i.dailymail.co.uk/1s/2023/06/12/15/72042787-0-image-a-2_1686579493362.jpg",
+    cover: "https://i.dailymail.co.uk/1s/2023/06/12/15/72042787-0-image-a-2_1686579493362.jpg",
     date: "Jun 12 2023",
     desc: "We take a look at the 26 sheds that have made the shortlist for Shed of the Year 2023, a Japanese-inspired tea room in Bristol and a bee cafe in the Suffolk village of Great Bealings are just a few of the entries on the shortlist for the Shed of the Year.",
   },

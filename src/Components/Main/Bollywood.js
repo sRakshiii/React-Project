@@ -7,12 +7,12 @@ function Bollywood() {
     <div className='p1'>
     <div className='Main'>
       <section className='section1'>
-        <h4> Bollywood</h4>
+        <h4>Bollywood</h4>
         <div className='head'></div>
         <div className="allPosts">
           {Total.filter((e) => { return e.class === "Bollywood1" }).map((item, index) => (
             <div className="latest1">
-              <Link to={`/details/${item.id}`} state={{ item }}key={index}><img src={item.cover} alt="" /></Link>
+              <Link to={`/details/${item.id}`} state={{ item }}key={index}><img src={item.cover} alt=""/></Link>
               <div>
                 <Link to={`/details/${item.id}`} state={{ item }}key={index}><h4>{item.title}</h4></Link>
                 <h6>{item.desc}</h6>
@@ -24,7 +24,7 @@ function Bollywood() {
         </div>
       </section>
       <section className='bollyS2'>
-        <h4 > Top Posts</h4>
+        <h4>Top Posts</h4>
         <div className='head'></div>
         <img src="https://static.startuptalky.com/2021/07/Business-movies-for-Entrepreneurs---StartupTalky.jpg" alt=""  className='natureImg'/>
         <div className="allTopPosts">

@@ -54,6 +54,13 @@ p {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
+  .NavLink {
+    background-color: rgb(244, 241, 235);
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 22px;
+  }
   .label {
     display: initial;
     margin-left: 350px;
@@ -62,13 +69,6 @@ p {
     display: flex;
     flex-direction: column;
     display: none;
-  }
-  .NavLink {
-    background-color: rgb(244, 241, 235);
-    margin-bottom: 10px;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 22px;
   }
   #menu-bar:checked ~ .links {
     display: flex;

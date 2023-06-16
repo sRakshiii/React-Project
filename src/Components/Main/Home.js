@@ -2,12 +2,12 @@ import React from 'react'
 import {Data} from "../Data/data"
 import { useState } from 'react';
 import "./Home.css";
+import HomeCard from './HomeCard';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import {MdNavigateNext} from "react-icons/md";
 import {GrFormPrevious} from "react-icons/gr";
-import HomeCard from './HomeCard';
 
 const SampleNextArrow=(props)=>{
   const  {onClick}=props

@@ -22,15 +22,12 @@
     border-radius: 50%;
     margin: 30px 20px 30px 0px ;
 }
+
 .icons{
     margin-left: 70px;
 }
 .icon{
     margin-left: 5px;
-}
-.likeicon{
-    height: 30px;
-    width: 30px;
 }
 .like{
     display: flex;
@@ -41,6 +38,11 @@
     font-size: 18px;
     margin-left: 10px;
 }
+.likeicon{
+    height: 30px;
+    width: 30px;
+}
+
 .Writter{
     display: flex;
     

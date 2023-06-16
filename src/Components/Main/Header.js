@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink, Route, Routes } from "react-router-dom";
+import { GiHamburgerMenu } from 'react-icons/gi'
 import Home from "./Home";
 import Bollywood from "./Bollywood";
 import Fitness from "./Fitness";
@@ -7,7 +8,6 @@ import Food from "./Food";
 import Technology from "./Technology";
 import Hollywood from "./Hollywood";
 import Details from '../details/Details';
-import { GiHamburgerMenu } from 'react-icons/gi'
 
 function Header() {
   return (
@@ -15,7 +15,7 @@ function Header() {
       <h3>The</h3>
       <p>Siren</p>
       <input type="checkbox" id="menu-bar" />
-      <label htmlFor="menu-bar" className='label'><GiHamburgerMenu /></label>
+      <label htmlFor="menu-bar" className='label'><GiHamburgerMenu/></label>
       <div className="links">
         <NavLink to="/" className="NavLink" style={({ isActive }) => ({
           color: isActive ? 'grey' : 'black', textDecoration: 'none'
@@ -36,7 +36,7 @@ function Header() {
           color: isActive ? 'grey' : 'black', textDecoration: 'none'
         })}> Food</NavLink>
       </div>
-      <hr />
+      <hr/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bollywood" element={<Bollywood />} />

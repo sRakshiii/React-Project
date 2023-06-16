@@ -7,7 +7,7 @@ function Technology() {
     <div className='p1'>
       <div className='Main'>
         <section className='section1'>
-          <h4> Technology</h4>
+          <h4>Technology</h4>
           <div className='head'></div>
           <div className="allPosts">
             {Total.filter((e) => { return e.class === "technology1" }).map((item, index) => (
@@ -30,7 +30,7 @@ function Technology() {
           <div className="allTopPosts">
             {Total.filter((e) => { return e.class === "technology2" }).map((item, index) => (
               <div className="latest2">
-                <Link to={`/details/${item.id}`} state={{ item }} key={index}><img src={item.cover} alt="" /></Link>
+                <Link to={`/details/${item.id}`} state={{ item }} key={index}><img src={item.cover} alt=""/></Link>
                 <div>
                   <Link to={`/details/${item.id}`} state={{ item }} key={index}><h4>{item.title}</h4></Link>
                   <h6>{item.desc.slice(0, 180)}</h6>

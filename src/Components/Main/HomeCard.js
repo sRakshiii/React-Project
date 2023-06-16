@@ -1,17 +1,17 @@
 import React from 'react'
 import { blog, latestArticle, topPosts, latestStories } from "../Data/data"
+import { Link } from 'react-router-dom'
 import { AiOutlineTags } from "react-icons/ai"
 import { AiOutlineClockCircle } from "react-icons/ai"
 import { AiOutlineComment } from "react-icons/ai"
 import { AiOutlineShareAlt } from "react-icons/ai"
 import { AiOutlineDown } from "react-icons/ai"
-import { Link } from 'react-router-dom'
 
 function HomeCard() {
     return (
         <div>
             <section className='blog'>
-                <h4 >The Latest</h4>
+                <h4>The Latest</h4>
                 <div className="container grid3">
                     {blog.map((item, index) => (
                         <div className=" boxItem" key={item.id}>
@@ -95,7 +95,6 @@ function HomeCard() {
                 <div className='head'></div>
                 <div className="Stories">
                     {latestStories.map((item) => (
-
                         <div className='sPost'>
                             <h2>{item.title}</h2>
                             <h6>{item.desc}</h6>

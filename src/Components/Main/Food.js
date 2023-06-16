@@ -7,7 +7,7 @@ function Food() {
     <div className='p1'>
     <div className='Main'>
     <section className='section1'>
-      <h4> Food</h4>
+      <h4>Food</h4>
       <div className='head'></div>
       <div className="allPosts">
         {Total.filter((e) => { return e.class === "food1" }).map((item, index) => (
